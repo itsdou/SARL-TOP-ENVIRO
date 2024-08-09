@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARL TOP ENVIRO - Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(270deg, #3a7d44, #2a5934, #67a767, #4c874c);
+            background-size: 800% 800%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        img {
+            width: 150px; /* Adjust the size of the logo */
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+
+        .coming-soon {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 2px solid white;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .coming-soon:hover {
+            background-color: white;
+            color: #3a7d44;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo SARL TOP ENVIRO"> <!-- Company logo -->
+        <h1>Gestion et traitement des déchets</h1>
+        <h2>SARL TOP ENVIRO</h2>
+        <div class="coming-soon">Coming Soon</div>
+    </div>
+</body>
+</html>
